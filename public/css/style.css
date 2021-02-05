@@ -1,0 +1,21 @@
+home {
+
+}
+
+body {
+    background-color: black;
+}
+
+#myDiv {
+  height: 400px;
+  width: 500px;
+  margin-left: 100px;
+  border-radius: 25px;
+}
+
+.first-heading {
+  color: white;
+  margin-left: 100px;
+  font-size: 16px;
+  padding-top: 47px; 
+}

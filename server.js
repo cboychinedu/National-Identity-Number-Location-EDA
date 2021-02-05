@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 // Using the express router and making the process run on
 // PORT: 3000
 const router = express.Router();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 
 // Serving the static assets
 app.use(express.static('public'));
@@ -35,7 +35,7 @@ app.get('/csvFile', (req, res) =>
 
 
 // Running the Nodejs server
-app.listen(PORT, 'localhost', () =>
+app.listen(PORT, () =>
 {
     // Displaying the connection status
     console.log(`The Nodejs server is running on: 'localhost:${PORT}'`);

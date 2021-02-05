@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 // Using the express router and making the process run on
 // PORT: 3000
 const router = express.Router();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // Serving the static assets
 app.use(express.static('public'));

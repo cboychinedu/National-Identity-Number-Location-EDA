@@ -3,7 +3,7 @@ home {
 }
 
 body {
-    background-color: black;
+    background-color: #524a4ad9;
 }
 
 #myDiv {
@@ -17,5 +17,5 @@ body {
   color: white;
   margin-left: 100px;
   font-size: 16px;
-  padding-top: 47px; 
+  padding-top: 47px;
 }
